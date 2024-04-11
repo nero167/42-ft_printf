@@ -3,17 +3,25 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: namirtha <student.42heilbronn.de>          +#+  +:+       +#+         #
+#    By: namirtha <namirtha@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/06 12:43:39 by namirtha          #+#    #+#              #
-#    Updated: 2024/04/07 16:26:26 by namirtha         ###   ########.fr        #
+#    Updated: 2024/04/11 15:26:34 by namirtha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 CC = cc
 CCFLAGS = -Wextra -Werror -Wall
-SRCS = ft_prinft.c \
+SRCS = \
+ft_printf.c \
+ft_printchar.c \
+ft_printhex.c \
+ft_printint.c \
+ft_printptr.c \
+ft_printstr.c \
+ft_printunsigned.c \
+ft_printptr_addr.c
 	
 OBJS = $(SRCS:.c=.o)
 
