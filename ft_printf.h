@@ -6,7 +6,7 @@
 /*   By: namirtha <namirtha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/06 12:38:54 by namirtha          #+#    #+#             */
-/*   Updated: 2024/04/11 15:16:48 by namirtha         ###   ########.fr       */
+/*   Updated: 2024/04/13 14:04:23 by namirtha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stddef.h>
 # include <stdint.h>
 # include <unistd.h>
+# include <stdio.h>
 
 int	ft_printf(const char *format, ...);
 int	ft_printformat(va_list ap, char format);
